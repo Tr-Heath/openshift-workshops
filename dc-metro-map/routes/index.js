@@ -11,6 +11,7 @@ var RAINBOW = process.env.RAINBOW || false;
 console.log("using WMATA API Key - " + API_KEY_PLACEHOLDER);
 if (BEERME == 'true') { console.log("Beer Me! "); }
 if (RAINBOW == 'true') { console.log("Rainbows! "); }
+if (NEW_EASTER_EGG == 'true') { console.log("Easter Egg active!"); }
 
 // var DCBEER = {
 //     type: "FeatureCollection",
